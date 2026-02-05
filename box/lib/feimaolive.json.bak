@@ -1,0 +1,22 @@
+[
+    {
+        "name": "繁华iptv",
+        "url": "http://what.612526.xyz:8808/LIVE.txt"
+    },
+    {
+        "name": "繁华哔哩",
+        "url": "http://what.612526.xyz:35455/bililive.m3u"
+    },
+    {
+        "name": "繁华斗鱼一起看",
+        "url": "http://what.612526.xyz:35455/douyuyqk.m3u"
+    },
+    {
+        "name": "繁华虎牙一起看",
+        "url": "http://what.612526.xyz:35455/huyayqk.m3u"
+    },
+    {
+        "name": "繁华丫丫轮播",
+        "url": "http://what.612526.xyz:35455/yylunbo.m3u"
+    }
+]
