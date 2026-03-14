@@ -7,32 +7,33 @@
         {
             "name": "繁华💝IPTV直播",
             "type": 0,
-            "url": "https://what.612526.xyz:5679/tv.txt?proxy=1",
-            "epg": "https://what.612526.xyz:5679/index.php?ch={name}&date={date}",
-            "logo": "https://what.612526.xyz:5679/index.php?ch={name}&type=icon",
-            "timeout": 10
-        },
-        {
-            "name": "繁华💝繁华港澳台",
-            "type": 0,
-            "url": "http://good.612526.xyz:8808/sitv.txt",
-            "playerType": 2,
+            "url": "https://bt.612526.xyz:8443/IPTV.txt",
+            "epg": "http://bt.612526.xyz:881/epg/NjIxNzU1NDQwZGY1Pq_pIpo3CBMdB6qa5QT8SYK7gBRp6WN-sJo=/e.xml",
+            "logo": "https://www.612526.xyz:8443/index.php?ch={name}&type=icon",
             "timeout": 10
         },
         {
             "name": "繁华💝繁华咪咕",
             "type": 0,
-            "url": "http://good.612526.xyz:3000/",
+            "url": "http://bt.612526.xyz:3000/",
             "playerType": 2,
             "timeout": 10,
             "ua": "bingcha/1.1"
         },
         {
-            "name": "繁华💝电视Live",
+            "name": "繁华💝备用",
             "type": 0,
-            "url": "https://fy.188766.xyz/?url=http://good.612526.xyz:35455",
+            "url": "https://www.612526.xyz:8443/tv.m3u",
             "playerType": 2,
             "ua": "okhttp/3.15",
+            "timeout": 10
+        },
+        {
+            "name": "繁华港澳台",
+            "type": 0,
+            "url": "https://pub-2f9a636a330d4beab5507d14608e2b6d.r2.dev/tvbox/520.txt",
+            "epg": "http://bt.612526.xyz:881/epg/NjIxNzU1NDQwZGY1Pq_pIpo3CBMdB6qa5QT8SYK7gBRp6WN-sJo=/e.xml",
+            "logo": "https://www.612526.xyz:8443/index.php?ch={name}&type=icon",
             "timeout": 10
         }
     ],
@@ -62,14 +63,6 @@
             "name": "繁华💝本地｜视频",
             "type": 3,
             "api": "csp_LocalFile"
-        },
-        {
-            "key": "繁华💝直播转点播",
-            "name": "繁华💝电视┃直播",
-            "type": 3,
-            "searchable": 0,
-            "api": "./lib/live2vod.js",
-            "ext": "./lib/feimaolive.json"
         },
         {
             "key": "繁华💝AList",
@@ -526,6 +519,16 @@
             "name": "繁华💝趣盘｜搜索",
             "type": 3,
             "api": "csp_QuPanSo"
+        },
+        {
+            "key": "版本信息",
+            "name": "版本｜信息",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "https://pizazz.s3.bitiful.net/single.json"
         },
         {
             "key": "繁华💝push_agent",
