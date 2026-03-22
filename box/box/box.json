@@ -19,22 +19,6 @@
             "playerType": 2,
             "timeout": 10,
             "ua": "bingcha/1.1"
-        },
-        {
-            "name": "繁华💝备用",
-            "type": 0,
-            "url": "https://www.612526.xyz:8443/tv.m3u",
-            "playerType": 2,
-            "ua": "okhttp/3.15",
-            "timeout": 10
-        },
-        {
-            "name": "繁华港澳台",
-            "type": 0,
-            "url": "https://pub-2f9a636a330d4beab5507d14608e2b6d.r2.dev/tvbox/520.txt",
-            "epg": "http://bt.612526.xyz:881/epg/NjIxNzU1NDQwZGY1Pq_pIpo3CBMdB6qa5QT8SYK7gBRp6WN-sJo=/e.xml",
-            "logo": "https://www.612526.xyz:8443/index.php?ch={name}&type=icon",
-            "timeout": 10
         }
     ],
     "sites": [
