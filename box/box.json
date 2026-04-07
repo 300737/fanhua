@@ -7,18 +7,28 @@
         {
             "name": "繁华💝IPTV直播",
             "type": 0,
-            "url": "https://bt.612526.xyz:8443/IPTV.txt",
+            "url": "https://bt.612526.xyz:8889/IPTV.txt",
             "epg": "http://bt.612526.xyz:881/epg/NjIxNzU1NDQwZGY1Pq_pIpo3CBMdB6qa5QT8SYK7gBRp6WN-sJo=/e.xml",
-            "logo": "https://www.612526.xyz:8443/index.php?ch={name}&type=icon",
-            "timeout": 10
+            "logo": "https://www.612526.xyz:8889/index.php?ch={name}&type=icon",
+            "timeout": 103
         },
         {
             "name": "繁华💝繁华咪咕",
             "type": 0,
             "url": "http://bt.612526.xyz:3000/",
+            "epg": "http://bt.612526.xyz:881/epg/NjIxNzU1NDQwZGY1Pq_pIpo3CBMdB6qa5QT8SYK7gBRp6WN-sJo=/e.xml",
             "playerType": 2,
             "timeout": 10,
             "ua": "bingcha/1.1"
+        },
+        {
+            "name": "繁华💝备用",
+            "type": 0,
+            "url": "https://iptv-sources-189.pages.dev/youhun.m3u",
+            "epg": "https://iptv-sources-189.pages.dev/epg/51zmt/{date}/{name}.json",
+            "playerType": 2,
+            "ua": "okhttp/3.15",
+            "timeout": 10
         }
     ],
     "sites": [
@@ -47,6 +57,40 @@
             "name": "繁华💝本地｜视频",
             "type": 3,
             "api": "csp_LocalFile"
+        },
+        {
+            "key": "腾讯视频",
+            "name": "腾讯｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/腾讯视频.js"
+        },
+        {
+            "key": "优酷视频",
+            "name": "优酷｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/优酷视频.js"
+        },
+        {
+            "key": "芒果视频",
+            "name": "芒果｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/芒果视频.js"
+        },
+        {
+            "key": "爱奇艺",
+            "name": "爱奇艺｜视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱奇艺.js"
+        },
+        {
+            "key": "三六零",
+            "name": "三六零｜视频",
+            "type": 3,
+            "api": "csp_SP360"
         },
         {
             "key": "繁华💝AList",
@@ -566,6 +610,29 @@
                 "9.9.9.9",
                 "149.112.112.112"
             ]
+        }
+    ],
+    "parses": [
+        {
+            "name": "超级解析（定制）",
+            "type": "1",
+            "url": "https://jx4k.fuyingapi.top/api/?key=a734bf8626f53e37bcd264d614110f37&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "iqiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "yk",
+                    "优酷",
+                    "mgtv",
+                    "imgo",
+                    "芒果"
+                ]
+            }
         }
     ],
     "ijk": [
